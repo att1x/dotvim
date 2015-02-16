@@ -6,7 +6,11 @@ filetype plugin indent on
 "theme
 set background=dark
 colorscheme heroku
-set guifont=Source\ Code\ Pro\ 10
+if has("gui_win32")
+	set guifont=Source_Code_Pro:h12
+else
+	set guifont=Source\ Code\ Pro\ 10
+endif
 
 "global options
 set number

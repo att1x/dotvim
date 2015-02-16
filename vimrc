@@ -48,8 +48,9 @@ inoremap jk <esc>
 inoremap <leader>w <c-o>:update<cr>
 nnoremap <leader>w :update<cr>
 
-"php space indentation
+"php and python space indentation
 autocmd filetype php setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+autocmd filetype py setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 
 " Python-mode
 " Activate rope

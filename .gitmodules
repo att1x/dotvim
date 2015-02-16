@@ -26,3 +26,10 @@
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 	ignore=dirty
+[submodule "bundle/vim-python-mode"]
+	path = bundle/vim-python-mode
+	url = https://github.com/klen/python-mode.git
+[submodule "bundle/vim-jedi"]
+	path = bundle/vim-jedi
+	url = https://github.com/davidhalter/jedi-vim.git
+	ignore=dirty

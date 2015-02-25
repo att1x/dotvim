@@ -12,6 +12,10 @@ else
 	set guifont=Source\ Code\ Pro\ 10
 endif
 
+"backups not in working dir
+set backup
+set backupdir=~/.vim/backups
+
 "global options
 set number
 set showmatch

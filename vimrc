@@ -27,6 +27,7 @@ set shiftwidth=4
 set hidden
 set laststatus=2
 set autochdir
+:cd ~
 
 "set mapleaders
 let mapleader = "-"

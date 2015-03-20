@@ -8,6 +8,8 @@ set background=dark
 colorscheme heroku
 if has("gui_win32")
 	set guifont=Source_Code_Pro:h12
+elseif has("gui_kde")
+	set guifont=Source\ Code\ Pro/11/-1/5/50/0/0/0/1/0
 else
 	set guifont=Source\ Code\ Pro\ 10
 endif
@@ -43,15 +45,11 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 "author abbreviations
 iabbrev @@ sebastian.wiesner@tu-dresden.de
 
-"unmap arrow and convenience keys
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
-nnoremap <Up> <nop>
-nnoremap <Down> <nop>
-nnoremap <Left> <nop>
-nnoremap <Right> <nop>
+"some convenience mappings
+inoremap <F7> <esc>:tabp<cr>i
+nnoremap <F7> :tabp<cr>
+inoremap <F8> <esc>:tabn<cr>i
+nnoremap <F8> :tabn<cr>
 inoremap jk <esc>
 
 "quick saving

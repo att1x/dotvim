@@ -14,9 +14,11 @@ else
 	set guifont=Source\ Code\ Pro\ 10
 endif
 
-"backups not in working dir
+"backups etc not in working dir
 set backup
-set backupdir=~/.vim/backups
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
 
 "global options
 set number

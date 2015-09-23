@@ -1,39 +1,44 @@
 [submodule "bundle/vim-emmet"]
 	path = bundle/vim-emmet
 	url = https://github.com/mattn/emmet-vim.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-colors-heroku"]
 	path = bundle/vim-colors-heroku
 	url = https://github.com/stulzer/heroku-colorscheme.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-colors-zenburn"]
 	path = bundle/vim-colors-zenburn
 	url = https://github.com/jnurmine/Zenburn.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-python-mode"]
 	path = bundle/vim-python-mode
 	url = https://github.com/klen/python-mode.git
+	ignore = dirty
 [submodule "bundle/vim-jedi"]
 	path = bundle/vim-jedi
 	url = https://github.com/davidhalter/jedi-vim.git
-	ignore=dirty
+	ignore = dirty
 [submodule "bundle/vim-nerdtree"]
 	path = bundle/vim-nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-	ignore=dirty
+	ignore = dirty
+[submodule "bundle/vim-riv"]
+	path = bundle/vim-riv
+	url = https://github.com/Rykka/riv.vim.git
+	ignore = dirty
